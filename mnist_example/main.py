@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
     
     # hyper parameters setting
-    learning_rate = 0.3
+    learning_rate = 1e-3
     hidden_input_size = 0
     hidden_output_size = 0
 
