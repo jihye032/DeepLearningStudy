@@ -49,6 +49,14 @@ class affine():
         
         self.d_w = None
         self.d_b = None
+        
+    '''
+    # it's better for save memory and init weight, bias
+    def __init__(self, input_size, output_size):
+        self.W = np.randn(output_size,input_size)
+        self.b = np.zeros(output_size)
+        ...
+    '''
 
     def forward(self, x):
         self.x = x
